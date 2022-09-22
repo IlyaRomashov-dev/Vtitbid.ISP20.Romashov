@@ -107,7 +107,6 @@ namespace Vtitbid.ISP20.Romashov.Console.Functions
                 return false;
             }
         }
-
         public bool IsIsosceles() //равнобедренный 
         {
             if (!IsTriangle())
@@ -123,7 +122,6 @@ namespace Vtitbid.ISP20.Romashov.Console.Functions
                 return false;
             }
         }
-
         public bool IsEquilateral() //равносторонний 
         {
             if (!IsTriangle())
@@ -186,6 +184,18 @@ namespace Vtitbid.ISP20.Romashov.Console.Functions
             {
                 return false;
             }
+        }
+        public double FoundSquare()
+        {
+            if (!IsTriangle())
+            {
+                return 0;
+            }
+            double result = 0;
+            double P = (SideA + SideB + SideC) / 2;
+            result = Math.Sqrt(P * (P - SideA) * (P - SideB) * (P - SideC));
+            return result;
+
         }
         private void CalculateAngles()
         {
@@ -347,6 +357,18 @@ namespace Vtitbid.ISP20.Romashov.Console.Functions
             {
                 return false;
             }
+        }
+        public static double FoundSquare(double a, double b, double c)
+        {
+            if (!IsTriangle(a, b, c))
+            {
+                return 0;
+            }
+            double result = 0;
+            double P = (a + b + c) / 2;
+            result = Math.Sqrt(P * (P - a) * (P - b) * (P - c));
+            return result;
+
         }
         public static void CalculateAngles(double a, double b, double c, out double angleA, out double angleB, out double angleC)
         {

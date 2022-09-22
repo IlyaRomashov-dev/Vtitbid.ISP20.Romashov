@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Vtitbid.ISP20.Romashov.Console.Objects\Vtitbid.ISP20.Romashov.Console.Objects.csproj" />
+  </ItemGroup>
+
 </Project>
