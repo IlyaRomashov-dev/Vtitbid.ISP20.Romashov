@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Romashov.Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Romashov.Console.Cyphers", "Vtitbid.ISP20.Romashov.Console.Cyphers\Vtitbid.ISP20.Romashov.Console.Cyphers.csproj", "{62319066-0248-4293-9072-A6CD2807365F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vtitbid.ISP20.Romashov.Console.Functions", "Vtitbid.ISP20.Romashov.Console.Functions\Vtitbid.ISP20.Romashov.Console.Functions.csproj", "{E187135D-AF02-46EF-B30F-2604C7F36384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Romashov.Console.Functions", "Vtitbid.ISP20.Romashov.Console.Functions\Vtitbid.ISP20.Romashov.Console.Functions.csproj", "{E187135D-AF02-46EF-B30F-2604C7F36384}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Romashov.Console.Converter", "Vtitbid.ISP20.Romashov.Console.NumberConvert\Vtitbid.ISP20.Romashov.Console.Converter.csproj", "{3475903A-135B-410C-BF6A-74681A624F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vtitbid.ISP20.Romashov.Console.ListReader", "Vtitbid.ISP20.Romashov.Console.ListReader\Vtitbid.ISP20.Romashov.Console.ListReader.csproj", "{ECE56A9D-2CC0-43EE-A5ED-D937BCFA5151}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{E187135D-AF02-46EF-B30F-2604C7F36384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E187135D-AF02-46EF-B30F-2604C7F36384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E187135D-AF02-46EF-B30F-2604C7F36384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3475903A-135B-410C-BF6A-74681A624F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3475903A-135B-410C-BF6A-74681A624F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3475903A-135B-410C-BF6A-74681A624F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3475903A-135B-410C-BF6A-74681A624F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE56A9D-2CC0-43EE-A5ED-D937BCFA5151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE56A9D-2CC0-43EE-A5ED-D937BCFA5151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE56A9D-2CC0-43EE-A5ED-D937BCFA5151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE56A9D-2CC0-43EE-A5ED-D937BCFA5151}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
